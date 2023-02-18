@@ -10,7 +10,7 @@ void fillRandom(int* x, int size) {
 
 int main(){
         int size = 1000;
-        int arr[100];
+        int arr[1000];
         fillRandom(&arr[0], size);
         for(int i = 0; i < size; i++){
                 std::cout << i+1 << " " << arr[i] << std::endl;

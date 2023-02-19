@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    int ar[]={1,2,4,5,6,4,5,1,7,0,1,5,7,9,1,7};
+    int ar[]={11,2,14,56,6,2,13,1,0,0,98,4,1,8,6,41};
     getMin(ar,16);
     int a=counter();
     cout<<a<<endl;
